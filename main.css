@@ -1,0 +1,152 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: arial;
+	float:top;
+    font-family: "Share Tech Mono", sans-serif;
+    background-color: #000;
+}
+
+h1 {    
+    background-color:#2b5108;
+    border: 2px solid;
+    color:#ea400c;
+    text-align: center;
+}
+
+table {
+    background-color: #F60;
+    border: 2px solid #39F;
+    width: 100%;
+}
+
+td {
+    border: 0px;
+    text-align: center;
+}
+
+p {
+    color:#09F;
+    text-indent: 20px;    
+}
+
+input {
+    font-family: "Share Tech Mono", sans-serif;
+}
+
+div, input {
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+div {
+    width: 100%;
+    height: 100%;
+}
+
+#loginbutton {
+    height: 30px;
+}
+
+#content {
+    background: #6B210B;
+    color: #ffffff;
+    width: 80%;
+    max-width: 800px;
+    height: 93%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content > div {
+    padding: 4px;
+}
+
+#login {
+    text-align: center;
+}
+
+#mainBoxes {
+    height: 300px;
+}
+
+#mainscreen {
+    text-align: left;
+}
+
+#chatInput {
+    width: 75%;
+    display: inline-block;
+}
+
+#invitebutton {
+    width: 20%;
+    float: right;
+}
+
+#mainBoxes > div {
+    border: solid 2px #ea400c;
+    padding: 4px;
+    overflow:auto;
+    display: inline-block;
+}
+
+div#userlist
+{
+    width: 20%;
+    float: right;
+}	
+div#mainchat
+{
+    width: 75%;
+    float: left;
+}
+input#maininput
+{
+    width: 100%;
+}	
+
+#gamescreen {
+    text-align: center;
+    height: 400px;
+}
+
+#gamescreen > * {
+    display: inline-block;
+    float: left;
+}
+
+#gameChatBox {
+    width: auto;
+    float: right;
+}
+
+div#gamechat
+{
+    border: solid 2px #ea400c;
+    padding: 4px;
+    height: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:auto;
+    text-align: left;
+}
+
+#gameinput {
+    width: 100%;
+}
+
+a{
+	 color:#ffffff;
+}
+a:link { text-decoration: none }
+a:active { text-decoration: none }
+a:visited { text-decoration: none }
+
+.user {
+    width: 100%;
+}

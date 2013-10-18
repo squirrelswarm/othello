@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>HTML5 Othello</title>
+		<script src="lib/modernizr.js"></script>
+		<script src="js/loader.js"></script>
+		<script src="js/items.js"></script>
+		<link rel="stylesheet" href="main.css">
+		<link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div id="content">
+			<h1>Othello</h1>
+			<div id="login">
+				<span id="userInput">
+					Username: <input id="logininput" size="30" type="text">
+					<img id="serverstatus" src="icons/exclamation.png" /></input>
+				</span>	
+				<br />		
+				<input type="button" id="loginbutton" value="Log In" disabled="true"></input>
+				<!-- <span id="serverstatus">Server is Not connected</span> -->
+			</div>
+			<div id="mainscreen" display= "none">
+				<!-- <h2>Othello Main Screen</h2> -->
+				<div id="mainBoxes">
+					<div id="mainchat"></div>
+					<!-- <div class="hspacer"></div> -->
+					<div id="userlist"></div>
+				</div><br/>
+				<div>
+					<span id="chatInput">
+						<input id="maininput" placeholder="Press enter to send message" size="65" type="text"></input>
+						<!-- <input type="button" id="mainchatbutton" value="Send chat"></input> -->
+					</span>
+					<input type="button" id="invitebutton" value="Invite User"></input>
+				</div>
+			</div>
+			<div id="gamescreen" display="none">
+				<!-- <h2>Othello Game Screen</h2> -->
+				<canvas id="gameBoard" width="400" height="400"></canvas></br>
+				<div id="gameChatBox">
+					<div id="gamechat"></div>
+					<input id="gameinput" placeholder="Press enter to send message" size="60" type="text"></input>
+				</div>
+				<!-- <input type="button" id="gamechatbutton" value="Send chat"></input> -->
+			</div>
+		</div>
+	</body>
+</html>
